@@ -1,0 +1,99 @@
+model {
+
+
+
+
+###########sub model 1
+
+
+
+
+  hatch0 ~ dlogis(0,1)
+  clutch0 ~ dnorm(0,0.01)
+  
+
+  hatch_treatment[1] <- 0
+  clutch_treatment[1] <- 0
+  
+  for(i in 2:3){
+  hatch_treatment[i] ~ dlogis(0,1)
+  clutch_treatment[i] ~ dnorm(0,0.01)
+  }
+  
+  for(i in 1:3){
+  gamma0[i] ~ dnorm(0,0.01)
+  gamma1[i] ~ dnorm(0,0.01)
+  gamma2[i] ~ dnorm(0,0.01)
+  gamma3[i] ~ dnorm(0,0.01)
+  
+}
+  
+  for(i in 1:nind){
+  
+  eggs[i] ~ dpois(lambda_eggs[i])
+  
+  log(lambda_eggs[i]) <- clutch0 + clutch_treatment[treatment[i]]
+  
+  hatched_eggs[i] ~ dbin(success[i]*hatch_success[i], eggs[i])
+  
+  logit(hatch_success[i]) <- hatch0 + hatch_treatment[treatment[i]]
+  
+  } #nest loop
+  
+  
+  #Prediction model
+
+    for(k in 1:3){
+
+      log(lambda_eggs_pred[k]) <- clutch0 + clutch_treatment[treatment_pred[k]]
+     
+      logit(hatch_success_pred[k]) <- hatch0 + hatch_treatment[treatment_pred[k]]
+      
+      avg_eggs[k] <- (lambda_eggs_pred[k])
+      avg_hatch[k] <- (hatch_success_pred[k])
+    }
+
+ # Priors
+ 
+ 
+  # Coefficients
+  
+   
+    # sd.cov ~ dt(0, 1/2.5^2, 1)T(0,) #student-t distribution
+    # tau.cov ~ dgamma(0.1,0.1) #gamma distribution
+    
+    
+
+    mean.surv ~ dt(0,1/10^2, 1) #prior for the mean
+    
+    #beta.treat ~ dnorm(0,0.001)
+    
+ #    for(t in 2:12){
+ #    beta.month[t] ~ dt(0,1/10^2, 1) #student-t distribution
+ #    }
+ #    beta.month[1] <- 0
+    # 
+    # for(k in 2:3){
+    # beta.year[k] ~  dt(0,1/10^2, 1) #student-t distribution
+    # }
+    
+
+    for (j in 2:3) {
+         beta.treatment[j] ~ dlogis(0,1)
+     }
+    beta.treatment[1] = 0
+    #beta.month.year[1,1] <- 0
+
+    beta.year ~ dlogis(0,1)
+  
+  for(i in 1:nind){
+    for(j in (first[i]+1):(last[i])){  
+
+      logit(phi[i,j]) <- mean.surv + beta.treatment[treatment[i]] + beta.year*year[i]
+          
+      mu[i,j] <- phi[i,j]*neh[i,j-1]
+      neh[i,j] ~ dbern(mu[i,j]) #bernoulli
+    }
+  }
+
+}
