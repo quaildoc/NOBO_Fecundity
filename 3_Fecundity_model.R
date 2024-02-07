@@ -1,5 +1,5 @@
 load("nest_enounter_history_format.Rdata")
-
+df
 treatment <- as.numeric(factor(df$Treatment))
 year <- as.numeric(factor(df$year))-1
 
@@ -14,7 +14,7 @@ inits <- function() {list(eggs = ifelse(is.na(eggs), 20, NA))}
 neh <- matrix(
   as.numeric(neh), ncol = ncol(neh)) 
 
-jags.data <- list(neh = neh, treatment=treatment, year = year,
+jags.data <- list(neh = neh, treatment = treatment, year = year,
                   first = first, eggs = eggs, hatched_eggs = hatched_eggs,
                   last = last, success = success,treatment_pred = c(1,2,3),
                   nind = nrow(neh))
