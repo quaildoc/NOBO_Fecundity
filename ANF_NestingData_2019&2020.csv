@@ -1,0 +1,69 @@
+Band_ID,Frequency,Sex,Treatment,Nest_ID,Attempt,Found_Date,Expected_ Hatch_Date,Fate_Date,Clutch_Size,Success_Unsuccessful,Hatched_Eggs,Unhatched_Eggs,Predation_Evidence,Nest_Predator,Nest_INT,Comments,Observer
+196007,148.883,F,Treatment,8883_N1,1,5/15/19,6/6/19,5/15/19,17,Unsuccessful,0,17,"Eggs gone, nest intact, no egg fragments",Snake,,,SRS
+196007,148.883,F,Treatment,8883_N2,2,6/24/19,7/16/19,7/7/19,14,Success,13,,,,,,SRS
+196008,150.491,M,Treatment,0491_N1,1,7/2/19,7/24/19,7/14/19,11,Success,11,,,,,,SRS
+196011,149.252,F,Treatment,9252_N1,1,5/21/19,6/12/19,6/10/19,15,Success,11,,,,,,SRS
+196011,149.252,F,Treatment,9252_N2,2,8/8/19,8/30/19,8/10/19,11,Unsuccessful,0,11,"Eggs gone, nest intact, no egg fragments",UNK - could be snake or raccoon,,,SRS
+196012,149.261,M,Treatment,9261_N1,1,7/9/19,7/31/19,7/25/19,N/A,Unsuccessful,0,,No shells present and the nest was overall intact. Never got an egg count even though it was checked twice daily at required times. When the nest failure was found 9261 was near it at about 15 to 20 m.,,,,AC
+196012,149.028,M,Treatment,9028_N1,1,6/8/20,7/1/20,6/11/20,13,Success,12,1,,,,,JMC
+196029,151.289,F,Treatment,1289_N1,1,9/4/19,9/26/19,9/22/19,7,Success,5,,,,,,TMT
+196041,150.93,F,Treatment,0930_N1,1,8/26/19,9/17/19,9/10/19,13,Unsuccessful,0,13,,,,,TMT
+196044,149.412,F,Treatment,9412_N1,1,5/20/19,6/11/19,5/24/19,14,Unsuccessful,0,14,Abandoned,,,Was off nest for 4 consecutive days,SRS
+196052,149.134,F,Control,9134_N1,1,6/18/19,7/10/19,6/21/19,12,Success,12,,,,,,SRS
+196057,149.213,F,Treatment,9213_N1,1,6/18/19,7/10/19,6/23/19,N/A,Success,11,,,,,,SRS
+196057,149.213,F,Treatment,9213_N2,2,8/26/19,9/17/19,9/22/19,14,Success,14,,,,,,TMT
+196061,149.545,M,Treatment,9545_N1,1,7/16/19,8/7/19,7/31/19,12,Success,12,,,,,,SRS
+196073,148.095,M,Treatment,8095_N1,1,5/15/19,6/6/19,6/4/19,15,Success,8,,,,,,SRS
+196074,148.803,M,Treatment,8803_N1,1,5/20/19,6/11/19,5/31/19,12,Success,11,,,,,,SRS
+196075,148.995,F,Treatment,8995_N1,1,8/26/19,9/17/19,9/4/19,12,Unsuccessful,0,12,,,,Bird killed off nest,TMT
+196076,149.226,F,Treatment,9226_N1,1,9/11/19,10/3/19,9/18/19,6,Unsuccessful,0,6,,,,,TMT
+196079,149.186,F,Control,9186_N1,1,5/30/19,6/21/19,6/19/19,15,Success,14,,,,,Radio collar on female not working,AC
+196081,149.586,M,Treatment,9586_N1,1,6/28/19,7/20/19,6/28/19,12,Success,11,,,,,,AC
+196084,150.579,F,Control,0579_N1,1,6/13/19,7/5/19,6/30/19,12,Success,11,,,,,,AC
+196084,150.579,F,Control,0579_N2,2,8/26/19,9/17/19,9/13/19,9,Unsuccessful,0,9,,,,,TMT
+202409,149.01,M,Treatment,9010_N1,1,5/21/20,6/13/20,6/8/20,14,Success,15,0,,,,,SRS
+202411,148.667,F,Treatment,8667_N1,1,6/8/20,7/1/20,6/26/20,10,Success,9,1,,,,,SRS
+202421,149.136,F,Treatment,9136_N1,1,5/14/20,6/6/20,6/5/20,14,Success,14,0,,,,,SRS
+202422,148.721,F,Control,8721_N1,1,5/7/20,5/30/20,5/28/20,13,Success,10,3,,,,,SRS
+202423,149.243,M,Treatment,9243_N1,1,6/10/20,7/3/20,6/19/20,11,Unsuccesful,0,11,"No eggs, nest intact",snake,,,JMC
+202424,149.037,F,Treatment,9037_N1,1,6/10/20,7/3/20,6/15/20,13,Success,12,1,,,,,JMC
+202425,149.1,F,Control,9100_N1,1,6/17/20,7/10/20,7/8/20,12,Success,12,0,,,,,KJS
+202426,149.18,F,Treatment,9180_N1,1,6/11/20,7/4/20,6/27/20,14,Success,12,2,,,,False Mortality Signal. Flushed. Egg count: 14,JMC
+202428,148.649,M,Control,8649_N1,1,7/1/20,7/24/20,7/6/20,N/A,Unsuccesful,0,,"No eggs, nest inact snake",snake,,,KJS
+202430,148.803,F,Control,8803_N1,1,6/1/20,6/24/20,6/14/20,13,Success,11,13,,,,,SRS
+202432,148.155,M,Control,8155_N1,1,6/8/20,7/1/20,6/19/20,10,Success,9,1,,,,,SRS
+202433,149.944,M,Treatment,9944_N1,1,8/3/20,8/26/20,8/19/20,12,Success,11,1,,,,,KJS
+202441,149.505,F,Treatment,9505_N1,1,6/17/20,7/10/20,7/22/20,11,Success,10,1,,,,"Found whlie laying (3 eggs). Abandoned by 9505, taken up by 8965",JMC
+202442,150.999,M,Treatment,0999_N1,1,6/29/20,7/22/20,7/3/20,9,Unsuccesful,0,0,no eggs in nest,snake,,,JMC
+202443,150.948,M,Treatment,0948_N1,1,6/8/20,7/1/20,6/8/20,13,Success,13,0,,,,,JMC
+202444,150.83,M,Treatment,0830_N1,1,6/24/20,7/17/20,6/11/20,11,Success,11,11,,,,,SRS
+202445,150.478,M,Off site,0478_N1,1,9/4/20,9/27/20,9/21/20,11,Success,7,4,,,,,SRS
+202451,148.073,F,Treatment,8073_N1,1,5/27/20,6/19/20,6/17/20,15,Success,12,3,,,,,SRS
+202452,150.579,F,Treatment,0579_N1,1,6/1/20,6/24/20,6/17/20,13,Success,13,0,,,,,SRS
+202454,149.289,M,Treatment,9289_N1,1,7/6/20,7/29/20,7/22/20,12,Success,12,0,,,,,SRS
+202455,150.92,M,Treatment,0920_N1,1,6/15/20,7/8/20,6/30/20,11,Success,11,0,,,,1 dead chick outside of nest ,SRS
+202457,150.678,F,Treatment,0678_N1,1,6/24/20,7/17/20,7/8/20,15,Unsuccesful,0,0,"No eggs in nest, nest bowl roof open",snake,,,SRS
+202458,149.216,F,Treatment,9216_N1,1,6/17/20,7/10/20,7/3/20,10,Success,9,1,,,,,SRS
+202463,148.614,F,Treatment,8614_N1,1,7/8/20,7/31/20,7/27/20,12,Success,10,0,,,,,KJS
+202466,149.747,M,Control,9747_N1,1,6/17/20,7/10/20,6/23/20,13,Success,10,3,,,,,SRS
+202468,148.281,F,Control,8281_N1,1,7/6/20,7/29/20,7/28/20,10,Unsuccesful,0,,"No eggs, nest intact snake",snake,,,KJS
+202468,148.281,F,Treatment,8281_N2,2,9/11/20,10/4/20,9/15/20,7,Unsuccesful,0,7,"No eggs, nest intact",snake,,,SRS
+202469,148.344,F,Control,8344_N1,1,7/14/20,8/6/20,8/4/20,11,Success,9,0,2 eggs missing,Unknown,,,KJS
+202470,148.29,M,Treatment,8290_N1,1,8/26/20,9/18/20,9/3/20,12,Unsuccesful,0,12,Abandoned - bird dead,,,,JMC
+202472,148.371,F,Control,8371_N1,1,7/20/20,8/12/20,7/28/20,9,Success,6,1,2 eggs missing,Unknown,,,KJS
+202476,148.236,M,Treatment,8263_N1,1,8/27/20,9/19/20,9/14/20,10,Success,10,0,,,,,JMC
+202481,148.389,F,Treatment,8389_N1,1,6/3/20,6/26/20,6/5/20,9,Unsuccesful,0,9,,,,5 eggs predated before found,JMC
+202481_999,148.434,F,Treatment,8434_N1,1,6/8/20,7/1/20,6/13/20,13,Unsuccesful,0,13,"No eggs, nest intact",snake,,,JMC
+202485,150.225,F,Treatment,0225_N1,1,6/3/20,6/26/20,6/3/20,2,Unsuccesful,0,2,,,,Failed while laying,JMC
+202485,150.225,F,Treatment,0225_N2,2,7/29/20,8/21/20,8/8/20,11,Success,11,0,,,,,JMC
+202488,150.073,F,Treatment,0073_N1,1,6/8/20,7/1/20,6/8/20,13,Success,13,0,,,,,JMC
+202489,149.144,F,Treatment,9144_N1,1,6/25/20,7/18/20,7/3/20,13,Success,11,2,,,,,JMC
+202493,150.623,F,Treatment,0623_N1,1,6/22/20,7/15/20,7/8/20,13,Success,11,2,,,,,JMC
+202493,150.623,F,Treatment,0623_N2,2,9/23/20,10/16/20,10/11/20,6,Success,6,0,,,,,SRS
+202496,150.606,F,Treatment,0606_N1,1,6/25/20,7/18/20,7/15/20,12,Success,10,2,,,,,JMC
+202497,151.262,F,Treatment,1262_N1,1,7/22/20,8/14/20,8/6/20,10,Success,4,0,6 eggs missing,,,,KJS
+202498,148.711,F,Treatment,8711_N1,1,5/28/20,6/20/20,6/19/20,12,Success,11,1,,,,,JMC
+202498,148.711,F,Treatment,8711_N2,2,8/31/20,9/23/20,9/17/20,13,Success,10,3,,,,,JMC
+202952,148.658,M,Control,8658_N1,1,7/5/20,7/28/20,7/10/20,11,Success,11,0,,,,,KJS
+202954,148.992,F,Treatment,8992_N1,1,5/12/20,6/4/20,5/16/20,14,Unsuccesful,0,14,,,,"Abandoned, no partial depredation",JMC
+202959,148.631,F,Treatment,8631_N1,1,6/29/20,7/22/20,7/22/20,16,Success,10,6,4 eggs missing after hatch,Unknown,,"Only 12 eggs seen in nest after hatch, 2 unchatched",KJS
